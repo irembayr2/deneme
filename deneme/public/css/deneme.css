@@ -1,0 +1,183 @@
+.navbar {
+    background-color: rgb(63, 94, 138);
+    display: flex;
+}
+
+.navbar-nav {
+    margin: auto;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-collapse {
+    margin-right: 30px;
+
+}
+
+.navbar-collapse .nav-item {
+    justify-content: center;
+    display: flex;
+}
+
+.navbar-logo {
+    max-width: 150px;
+    max-height: 100px;
+    text-align: center;
+    display: flex;
+}
+
+.navbar-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.navbar-links-container {
+    display: flex;
+    margin: auto;
+
+}
+
+.navbar-link {
+    background-color: rgb(63, 94, 138);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.nav-link.navbar-link:hover {
+    color: #ff1b2d;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background: #ff1b2d;
+    width: 250px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.btn-danger:hover {
+    background-color: #FFF;
+    color: #ff1b2d;
+}
+
+.container-md {
+    width: 1200px;
+    height: 800px;
+}
+
+.card {
+    height: 300px;
+}
+
+.card my-0 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+
+.card-body {
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+.nav-tabs {
+    border-bottom: none !important;
+    display: flex;
+    width: 100%;
+}
+
+
+.nav-tabs .custom {
+    padding-left: 15px;
+}
+
+.custom .tab-link {
+    color: white;
+    background-color: rgb(65, 115, 135);
+}
+
+.custom .tab-link:not(.active):hover {
+    color: white;
+    background-color: rgb(5, 91, 125);
+    text-decoration: none;
+}
+
+
+.text-center {
+    font-weight: 37.5rem;
+    font-size: 23px;
+    color: rgb(0, 51, 76);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    font-style: italic;
+}
+
+
+.card-body h5.card-subtitle {
+    font-size: 25px;
+    font-weight: 50rem;
+    color: rgb(0, 51, 76);
+}
+
+
+.card-body h4.card-title {
+    color: rgb(0, 51, 76);
+}
+
+.custom-color {
+    color: rgb(246, 142, 86);
+}
+
+.custom-background {
+    background-color: rgb(246, 142, 86);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-link {
+    color: rgb(246, 142, 86);
+    text-decoration: none;
+}
+
+.display-6 {
+    background-color: rgb(246, 142, 86);
+    max-width: 98%;
+    border-radius: 10px;
+    color: rgb(0, 51, 76);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.card-body .custom-link {
+    color: #ff1b2d;
+    text-decoration: none;
+}
+
+.card-body .custom-link:hover {
+    text-decoration: none;
+}
+
+.card-body .custom-title a {
+    color: rgb(65, 115, 135);
+    text-decoration: none;
+}
